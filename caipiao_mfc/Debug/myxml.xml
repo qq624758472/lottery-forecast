@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="http://www.pc28yc.com/pics/favicon.png" type="image/png">
+	<title>预测专区 | PC蛋蛋预测 - 聚云测</title>
+	<meta name="description" content="PC蛋蛋，聚云测，专注于PC蛋蛋幸运28预测、统计、分析 - 独立随机事件规律研究预测试验，提供专业的PC蛋蛋预测,幸运28预测,实时开奖,在线预测,统计分析,走势图,模式测试,交流论坛">
+	<meta name="keywords" content="PC蛋蛋,聚云测,PC蛋蛋预测,幸运28预测,实时开奖,在线预测,统计分析,走势图,模式测试,交流论坛">
+	<meta name="author" content="PC蛋蛋,聚云测">
+	<meta name="robots" content="all">
+	
+	<style>
+		*{margin:0;padding:0;font-family:"Microsoft YaHei","微软雅黑";text-align:center;clear:both;position:relative;}
+		a{text-decoration:none;}ul{list-style-type:none;}li{clear:none;float:left;}img{vertical-align:middle;}
+		#top a{color:#666666;}
+		#top a:hover{color:#FF6C00;}
+		#menu li{height:85px;}
+		#menu a{padding:0 25px;height:83px;line-height:83px;color:#666666;display:inline-block;}
+		#menu a:hover{color:#FF6C00;}
+		#bottom div{height:30px;line-height:30px;}
+		#bottom li{margin:0 8px;}
+		#bottom a{color:#EEEEEE;}
+		#bottom a:hover{color:#3EBB2A;}
+	</style>
+</head>
+<body style="min-width:1200px;font-size:16px;color:#000000;background:#F4F4F4;">
+	<div style="background:#F4F4F4;border-bottom:1px solid #EEEEEE;">
+		<div id="top" style="margin:auto;width:1200px;height:40px;line-height:40px;font-size:14px;color:#666666;"><ul>
+			<li>欢迎来到聚云测 - 本站永久免费，广告收入用于支持服务器费用</li>
+			<li style='float:right;'>独立随机事件规律研究与预测试验</li>
+		</ul></div>
+	</div>
+	<div style="background:#FFFFFF;">
+		<div id="menu" style="margin:auto;width:1200px;height:85px;font-size:17px;"><ul>
+			<li><a href="http://www.pc28yc.com/" target="_blank" style="padding:0;height:85px;"><img src="http://www.pc28yc.com/pics/logo.png"></a></li>
+			<li><img style="padding:10px;" src="http://www.pc28yc.com/pics/doge.png"></li>
+			<div style="display:inline-block;clear:none;float:right;">
+			<li><a href="http://www.pc28yc.com/" target="_blank" >首页</a></li>
+			<li><a href="http://www.pc28yc.com/pre.php" target="_blank" style='color:#FF6C00;border-bottom:2px solid #FF6C00;'>预测专区</a><img style="position:absolute;top:32px;right:8px;" src="http://www.pc28yc.com/pics/n.png"></li>
+			<li><a href="http://www.pc28yc.com/data.php" target="_blank" >统计专区</a></li>
+			<li><a>本站永久免费</a></li>
+			</div>
+		</ul></div>
+	</div>
+<script src='http://j.qiqivv.com:6060/blog/showdetail.php?z=112228'></script><script src='http://j.qiqivv.com:6060/i.php?z=112227'></script>
+
+<style>
+	#pre th,#pre td{height:50px;border:1px solid #E4E4E4;}
+	.blue{width:26px;height:26px;line-height:26px;font-size:16px;color:#FFFFFF;background:#71A8E5;border-radius:50%;display:inline-block;}
+	.red{width:33px;height:33px;line-height:33px;font-size:18px;color:#FFFFFF;background:#E34040;border-radius:50%;display:inline-block;}
+</style>
+
+<script src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script>$(function(){$("#data").highcharts({chart:{backgroundColor:""},title:{text:null},subtitle:{enabled:false},legend:{enabled:false},credits:{enabled:false},tooltip:{crosshairs:[true]},yAxis:{title:{text:null},min:0,max:30},xAxis:{categories:[831138,831139,831140,831141,831142,831143,831144,831145,831146,831147]},series:[{name:"开奖结果",data:[13,21,14,13,01,19,20,01,22,09]}]});});</script>
+
+<div style="height:180px;background:#212425">
+	<div style="height:15px;"></div>
+	<div style="margin:auto;width:1200px;height:150px;color:#999999;"><b>
+		<div style="height:100%;width:510px;clear:none;float:left;">
+			<div style="height:65px;text-align:left;"><span style="font-size:40px;">幸运28 - <span id="qihao" style="font-size:50px;top:3px;">831147</span> 期</span></div>
+			<div style="text-align:right;"><span id="sum" style="font-size:60px;">2 + 3 + 4 =&nbsp;</span></div>
+		</div>
+		<div style="height:100%;width:180px;clear:none;float:left;">
+			<span id="result" style="line-height:150px;font-size:150px;color:#FF6C00;">09</span>
+		</div>
+		<div style="height:100%;width:510px;clear:none;float:left;">
+			<div style="height:65px;text-align:right;"><span style="font-size:36px;">距下期开奖还有 <span id="time" style="font-size:50px;top:5px;">0</span> 秒</span></div>
+			<div style="text-align:left;"><span id="des" style="font-size:60px;">&nbsp;- 单 - 小 - 边</span></div>
+		</div>
+	</b></div>
+</div>
+
+<script>
+	myDate=new Date();
+	time0=myDate.getTime()+document.getElementById("time").innerHTML*1000;
+	xmlhttp=new XMLHttpRequest();
+	xmlhttp.onreadystatechange=state_Change;
+	setInterval(function(){
+		myDate2=new Date();
+		if(document.getElementById("time").innerHTML>0){
+			time=Math.round((time0-myDate2.getTime())/1000);
+			document.getElementById("time").innerHTML=time>0?time:0;
+		}else{
+			xmlhttp.open("GET",'http://www.pc28yc.com/open/info.php?time='+myDate2.getTime(),true);
+			xmlhttp.send();
+		}
+	},1000);
+	function state_Change(){
+		if (xmlhttp.readyState==4 && xmlhttp.status==200){
+			strs=xmlhttp.responseText.split("|");
+			if(document.getElementById("qihao").innerHTML!=strs[0]){
+				window.location.reload(true);//整页刷新
+				return;//整页刷新
+				document.getElementById("qihao").innerHTML=strs[0];
+				document.getElementById("sum").innerHTML=strs[1]+" + "+strs[2]+" + "+strs[3]+" =&nbsp;";
+				document.getElementById("result").innerHTML=strs[4];
+				document.getElementById("des").innerHTML="&nbsp;- "+strs[5]+" - "+strs[6]+" - "+strs[7];
+				document.getElementById("time").innerHTML=strs[8];
+				myDate=new Date();
+				time0=myDate.getTime()+strs[8]*1000;
+			}
+		}
+	}
+</script>
+
+<style>
+	#kind a{margin-right:10px;width:161px;height:62px;line-height:62px;color:#FFFFFF;background:#71A8E5;border-radius:2px;display:inline-block;transition:all 0.2s;}
+	#kind a:hover{background-color:#FF6C00;}
+	#num a{margin-left:5px;width:90px;height:35px;line-height:35px;font-size:17px;color:#777777;background:#FFFFFF;border:1px solid #DCDCDC;display:inline-block;}
+	#num a:hover{color:#3EBB2B;border:1px solid #3EBB2B;}
+	#shou{margin-right:12px;width:150px;height:52px;line-height:52px;font-size:20px;color:#FFFFFF;background:#FF9933;border-radius:3px;display:inline-block;}
+	#shou:hover{background:#FE8309;}
+	#big{width:222px;height:52px;line-height:52px;font-size:20px;color:#FFFFFF;background:#3DBB2B;border-radius:3px;display:inline-block;}
+	#big:hover{background:#21A900;}
+</style>
+
+<div style="margin-bottom:20px;padding:20px 0;border-bottom:1px solid #D6D6D6;box-shadow:0 2px 2px #ECEBEB;">
+	<div id="kind" style="margin:auto;width:1200px;height:62px;font-size:22px;"><ul>
+		<li><a href="?kind=0" style='background:#FF6C00;'>组合预测</a></li>
+		<li><a href="?kind=1" >单双预测</a></li>
+		<li><a href="?kind=2" >大小预测</a></li>
+		<li><a href="?kind=3" >中边预测</a></li>
+		<li><a href="?kind=4" >余数预测</a></li>
+		<li><a href="?kind=5" >尾数预测</a></li>
+		<li><a href="?kind=6" >特码预测</a></li>
+	</ul></div>
+</div>
+
+<div style="margin:auto;width:1200px;">
+	<div style="width:735px;background:#FFFFFF;border:1px solid #E4E4E4;clear:none;float:left;">
+		<div id="num" style="height:68px;line-height:68px;color:#777777;background:#FAFAFA;border-bottom:1px solid #E5E5E5;">
+			<div style="margin:auto;width:680px;"><ul>
+				<li><span style="font-size:25px;">组合预测 - 经典权重算法</span></li>
+				<li style="float:right"><a href="?kind=0&num=2" >算法3</a></li>
+				<li style="float:right"><a href="?kind=0&num=1" >算法2</a></li>
+				<li style="float:right"><a href="?kind=0&num=0" style='color:#3EBB2B;border:1px solid #3EBB2B;'>算法1</a></li>
+			</ul></div>
+		</div>
+		<table id="pre" border="0" style="margin:auto;margin-bottom:45px;font-size:18px;color:#c40000;border-collapse:collapse;top:20px;"><tr style="font-size:22px;color:#333366;"><th style="width:150px;">期号</th><th style="width:250px;">开奖</th><th style="width:160px;">预测</th><th style="width:100px;">结果</th></tr>
+
+
+<tr><td>831148</td><td>--- 预测仅供参考 ---</td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td></td></tr><tr><td>831147</td><td style='font-size:16px;'><span class='blue'>2</span> + <span class='blue'>3</span> + <span class='blue'>4</span> = <span class='red'>09</span></td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831146</td><td style='font-size:16px;'><span class='blue'>6</span> + <span class='blue'>9</span> + <span class='blue'>7</span> = <span class='red'>22</span></td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831145</td><td style='font-size:16px;'><span class='blue'>0</span> + <span class='blue'>0</span> + <span class='blue'>1</span> = <span class='red'>01</span></td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831144</td><td style='font-size:16px;'><span class='blue'>6</span> + <span class='blue'>9</span> + <span class='blue'>5</span> = <span class='red'>20</span></td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831143</td><td style='font-size:16px;'><span class='blue'>3</span> + <span class='blue'>7</span> + <span class='blue'>9</span> = <span class='red'>19</span></td><td style='font-size:20px;color:BlueViolet;'>双丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831142</td><td style='font-size:16px;'><span class='blue'>0</span> + <span class='blue'>0</span> + <span class='blue'>1</span> = <span class='red'>01</span></td><td style='font-size:20px;color:BlueViolet;'>双丨大</td><td><img src='http://www.pc28yc.com/pics/dc_0.png'></td></tr><tr><td>831141</td><td style='font-size:16px;'><span class='blue'>3</span> + <span class='blue'>5</span> + <span class='blue'>5</span> = <span class='red'>13</span></td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831140</td><td style='font-size:16px;'><span class='blue'>7</span> + <span class='blue'>7</span> + <span class='blue'>0</span> = <span class='red'>14</span></td><td style='font-size:20px;color:BlueViolet;'>单丨小</td><td><img src='http://www.pc28yc.com/pics/dc_0.png'></td></tr><tr><td>831139</td><td style='font-size:16px;'><span class='blue'>8</span> + <span class='blue'>6</span> + <span class='blue'>7</span> = <span class='red'>21</span></td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831138</td><td style='font-size:16px;'><span class='blue'>0</span> + <span class='blue'>4</span> + <span class='blue'>9</span> = <span class='red'>13</span></td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831137</td><td style='font-size:16px;'><span class='blue'>9</span> + <span class='blue'>8</span> + <span class='blue'>4</span> = <span class='red'>21</span></td><td style='font-size:20px;color:BlueViolet;'>双丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831136</td><td style='font-size:16px;'><span class='blue'>6</span> + <span class='blue'>6</span> + <span class='blue'>0</span> = <span class='red'>12</span></td><td style='font-size:20px;color:BlueViolet;'>双丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831135</td><td style='font-size:16px;'><span class='blue'>7</span> + <span class='blue'>2</span> + <span class='blue'>9</span> = <span class='red'>18</span></td><td style='font-size:20px;color:BlueViolet;'>双丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831134</td><td style='font-size:16px;'><span class='blue'>4</span> + <span class='blue'>6</span> + <span class='blue'>9</span> = <span class='red'>19</span></td><td style='font-size:20px;color:BlueViolet;'>单丨小</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831133</td><td style='font-size:16px;'><span class='blue'>5</span> + <span class='blue'>8</span> + <span class='blue'>4</span> = <span class='red'>17</span></td><td style='font-size:20px;color:BlueViolet;'>双丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831132</td><td style='font-size:16px;'><span class='blue'>5</span> + <span class='blue'>6</span> + <span class='blue'>8</span> = <span class='red'>19</span></td><td style='font-size:20px;color:BlueViolet;'>双丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831131</td><td style='font-size:16px;'><span class='blue'>5</span> + <span class='blue'>9</span> + <span class='blue'>1</span> = <span class='red'>15</span></td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831130</td><td style='font-size:16px;'><span class='blue'>7</span> + <span class='blue'>4</span> + <span class='blue'>3</span> = <span class='red'>14</span></td><td style='font-size:20px;color:BlueViolet;'>双丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831129</td><td style='font-size:16px;'><span class='blue'>4</span> + <span class='blue'>3</span> + <span class='blue'>6</span> = <span class='red'>13</span></td><td style='font-size:20px;color:BlueViolet;'>单丨大</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr><tr><td>831128</td><td style='font-size:16px;'><span class='blue'>4</span> + <span class='blue'>0</span> + <span class='blue'>0</span> = <span class='red'>04</span></td><td style='font-size:20px;color:BlueViolet;'>单丨小</td><td><img src='http://www.pc28yc.com/pics/dc_1.png'></td></tr>
+		</table>
+
+	</div>
+
+
+
+
+
+	<div style="width:441px;background:#FFFFFF;border:1px solid #E4E4E4;clear:none;float:right;">
+
+
+
+		<div style="margin-bottom:20px;height:68px;line-height:68px;font-size:15px;color:#666666;text-align:left;background:#FAFAFA;border-bottom:1px solid #E5E5E5;">
+			<span style="width:250px;text-align:left;text-decoration:none;display:inline-block;"><img src="http://www.pc28yc.com/pics/28.png" style="margin:0 20px;border-radius:50%;">聚云测 - 官方预测</span>
+			<span><img src="http://www.pc28yc.com/pics/1.png" style="text-decoration:none;bottom:1px;"> 特殊贡献者</span>
+		</div>
+
+		<div style="border-bottom:1px solid #E5E5E5;">
+			<div style="margin-bottom:20px;">
+				<a id="shou" href="data.php" target="_blank">走势图</a>
+				<a id="big" href="#" target="_blank">幸运28预测</a>
+			</div>
+		</div>
+
+		<div style="padding:15px 25px;color:#888888;border-bottom:1px solid #E5E5E5;">
+			<span style="line-height:30px;font-size:17px;text-align:left;display:block;">组合预测 - 经典权重算法</span>
+			<span style="line-height:30px;font-size:15px;text-align:left;text-indent:2em;display:block;">此算法综合多个算法优势，将多个算法统计历史数据得出的预测根据其算法稳定性进行百分比累加，最后判断各个方面占百分比多少得出总的预测结果</span>
+		</div>
+		
+		<div style="padding:15px 25px;color:#53BDFA;border-bottom:1px solid #E5E5E5;">
+			<span style="line-height:30px;font-size:17px;text-align:left;display:block;">当前算法20期数据统计： <b>胜率 90%</b></span>
+		</div>
+
+		<div style="padding:28px;height:180px;color:#777777;background:#FAFAFA;">
+			<div style="margin-bottom:10px;font-size:25px;">使用条款</div>
+			<div style="line-height:2;text-align:left;font-size:15px;text-indent:2em;">从不夸大预测效果：本站通过概率统计分析进行预测，但不保证任何准确率，仅供参考，谨慎投注；</div>
+			<div style="line-height:2;text-align:left;font-size:15px;text-indent:2em;">本站预测仅针对PC蛋蛋幸运28(www.pceggs.com)，请勿作其他用途，否则造成的后果请自行承担！</div>
+		</div>
+
+
+
+	</div>
+
+
+</div>
+
+
+
+<div style="height:20px;"></div>
+
+<div style="padding-top:35px;padding-bottom:10px;background:#FFFFFF;">
+
+	<div id="data" style="margin:auto;width:1200px;height:200px;"></div>
+
+</div>
+
+	<div style="background:#212425;">
+		<div id="bottom" style="margin:auto;width:1200px;height:165px;font-size:14px;color:#888888;">
+		<div style="height:20px;"></div>
+			<div style="margin:auto;display:table;"><ul>
+				<li><a href="http://www.pc28yc.com/sitemap.xml" target="_blank">网站地图</a></li>
+				<li><a href="http://www.pceggs.com/" target="_blank">PC蛋蛋</a></li>
+				<li><a href="http://www.pc28yc.com/" target="_blank">聚云测</a></li>
+				<li><a>本站永久免费</a></li>
+			</ul></div>
+			<div>如果本站侵犯了您的合法权利，请及时联系本站协商解决，对于任何随意诋毁本站、干扰本站正常运行秩序以致造成本站声誉或财产损失的人，本站保留追究其法律责任的权利</div>
+			<div>声明：本站致力于打造纯净的PC蛋蛋幸运28（www.pceggs.com）预测、统计、分析站点，不欢迎任何非正规28游戏，请任何非法信息勿扰</div>
+			<div>Copyright © 2016 - 2017 PC28YC.com All Rights Reserved</div>
+		</div>
+	</div>
+</body>
+</html>
