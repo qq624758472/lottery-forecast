@@ -164,9 +164,10 @@ BOOL Ccaipiao_mfcDlg::OnInitDialog()
 	int j = 0;  //numberBuffer的索引。
 	int plus_num = 0;
 
-	while (p != NULL)
+	while (*p != NULL)
 	{
-		if ((*p < 48) || (*p > 57) || (*p != ' ') || (*p != '+') || (*p != '='))  //判断所指向的数据不是数字的话，初始化缓冲区数组
+		//32 是空格
+		if (((*p < 48) || (*p > 57)) && (*p != 32) && (*p != '+') && (*p != '='))  //判断所指向的数据不是数字的话，初始化缓冲区数组
 		{
 			memset(numberBuffer, -1, 6);
 			p++;

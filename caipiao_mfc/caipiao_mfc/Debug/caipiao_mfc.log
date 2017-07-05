@@ -1,3 +1,4 @@
 ﻿  caipiao_mfcDlg.cpp
-  caipiao_mfc.vcxproj -> E:\QQPCmgr\Desktop\caipiao_mfc\Debug\caipiao_mfc.exe
-  caipiao_mfc.vcxproj -> E:\QQPCmgr\Desktop\caipiao_mfc\Debug\caipiao_mfc.pdb (Full PDB)
+e:\github\juechen\caipiao_mfc\caipiao_mfc\caipiao_mfcdlg.cpp(199): warning C4244: “=”: 从“TCHAR”转换到“char”，可能丢失数据
+  caipiao_mfc.vcxproj -> E:\github\juechen\caipiao_mfc\Debug\caipiao_mfc.exe
+  caipiao_mfc.vcxproj -> E:\github\juechen\caipiao_mfc\Debug\caipiao_mfc.pdb (Full PDB)
