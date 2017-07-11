@@ -142,7 +142,7 @@ BOOL Ccaipiao_mfcDlg::OnInitDialog()
 	typedef struct data
 	{
 		int one;
-		int tow;
+		int two;
 		int three;
 		int add;
 	}data_3;
@@ -190,8 +190,16 @@ BOOL Ccaipiao_mfcDlg::OnInitDialog()
 			plus_num++;
 			if (plus_num == 2)
 			{
-
+				view_list->result.one = numberBuffer[0] - 48;
+				view_list->result.two = numberBuffer[1] - 48;
+				for (int i=0; i<2; i++)
+				{
+					p++;
+				}
+				view_list->result.three = *p - 48;
+				view_list->result.add = view_list->result.one + view_list->result.two + view_list->result.three;
 			}
+			break;
 		}
 		if ((*p >= 48) && (*p <= 57))
 		{
@@ -206,23 +214,29 @@ BOOL Ccaipiao_mfcDlg::OnInitDialog()
 			continue;
 		}
 
-		// 在列表视图控件中插入列表项，并设置列表子项文本   
-		m_programLangList.InsertItem(0, _T("Java"));
-		m_programLangList.SetItemText(0, 1, _T("1"));
-		m_programLangList.SetItemText(0, 2, _T("99"));
+		if (plus_num == 2)
+		{
+			char buff[4] = { 0 };
+			itoa(view_list->result.one, buff, 10);
+			// 在列表视图控件中插入列表项，并设置列表子项文本   
+			m_programLangList.InsertItem(0, _T(""));      // 期号
+			m_programLangList.SetItemText(0, 1, _T("2"));     // 开奖
+			m_programLangList.SetItemText(0, 2, _T("3"));    // 预测
 
-		m_programLangList.InsertItem(1, _T("C"));
-		m_programLangList.SetItemText(1, 1, _T("2"));
-		m_programLangList.SetItemText(1, 2, _T("98"));
+			m_programLangList.InsertItem(1, _T("C"));
+			m_programLangList.SetItemText(1, 1, _T("2"));
+			m_programLangList.SetItemText(1, 2, _T("98"));
 
-		m_programLangList.InsertItem(2, _T("C#"));
-		m_programLangList.SetItemText(2, 1, _T("3"));
-		m_programLangList.SetItemText(2, 2, _T("97"));
+			m_programLangList.InsertItem(2, _T("C#"));
+			m_programLangList.SetItemText(2, 1, _T("3"));
+			m_programLangList.SetItemText(2, 2, _T("97"));
 
-		m_programLangList.InsertItem(3, _T("C++"));
-		m_programLangList.SetItemText(3, 1, _T("4"));
-		m_programLangList.SetItemText(3, 2, _T("96"));
+			m_programLangList.InsertItem(3, _T("C++"));
+			m_programLangList.SetItemText(3, 1, _T("4"));
+			m_programLangList.SetItemText(3, 2, _T("96"));
 
+		}
+		
 		i++;
 		p++;
 	}
